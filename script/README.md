@@ -1,6 +1,6 @@
 # setup
 
-# プログラム停止
+# nohupで起動したbotを止める
 ```bash
-bash stop.sh bot.py
+bash stop.sh botのファイル名
 ```

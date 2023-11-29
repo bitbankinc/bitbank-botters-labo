@@ -89,4 +89,3 @@ while True:
         else:
             print("不明なエラーが発生しました。15秒待機します。")
             time.sleep(15)
-

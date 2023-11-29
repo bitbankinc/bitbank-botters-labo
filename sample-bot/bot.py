@@ -21,8 +21,8 @@ print("各種パラメータを設定します。")
 order_lot = 500
 time_frame = 11
 price_diff_percent = 0.97
-exit_profit_percent = 27
-exit_loss_percent = 4
+exit_profit_percent = 0.27
+exit_loss_percent = 0.04
 
 # ポジション情報
 current_position = 0
@@ -88,4 +88,3 @@ while True:
         else:
             print("不明なエラーが発生しました。15秒待機します。")
             time.sleep(15)
-
